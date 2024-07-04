@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML & CSS Reference Guide</title>
+        <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>HTML & CSS Reference Guide</h1>
+                <h3><p>This is a streamlined reference guide to a selection of HTML and CSS coding terms.</p></h3>
+        </header>
+
+        <main>
+            <div>
+                <h2 class="html">HTML (HyperText Markup Language) </h2>
+                    <table>
+                        <tr class="even">
+                            <th>Name</th>
+                            <th>Term</th>
+                            <th>Meaning</th>
+                        </tr>
+                
+                        <tr>
+                            <td>Declaration</td>
+                            <td>&lt;!DOCTYPE html&gt;</td>
+                            <td>This displays the <em>latest</em> version of HTML.</td>
+                        </tr>
+
+                        <tr class="even">
+                            <td>Head Element</td>
+                            <td>&lt;head&gt;</td>
+                            <td>The head element contains information <em>about </em> the page, rather than content shown within the main part of the browser.</td>
+                        </tr>
+                    
+                        <tr>
+                            <td>Title Element</td>
+                            <td>&lt;title&gt;</td>
+                            <td>The title element is displayed as the URL; Uniform Resource Locator.</td>
+                        </tr>
+
+                        <tr class="even">
+                            <td>Body Element</td>
+                            <td>&lt;body&gt;</td>
+                            <td>The body element displays all content of the main browser.</td>
+                        </tr>
+
+                        <tr>
+                            <td>Tags</td>
+                            <td>&lt;p&gt;</td>
+                            <td>Opening and closing tags act like containers and surround information. 
+                            The &lt;p&gt; tag is a paragraph tag.</td>
+                        </tr>
+                         
+                        <tr class="even">
+                            <td>Attributes</td>
+                            <td>name and value</td>
+                            <td>Attributes provide additional information about an element. 
+                            Assigned within the opening tag with two parts; name and value.
+                            &lt;p name="value"&gt; </td>
+                        </tr>
+
+                        <tr>
+                            <td>Comments</td>
+                            <td>&lt;!-- --&gt;</td>
+                            <td>Comments are notes written by developers and <em>aren't visible</em> on the main browser.</td>
+                        </tr>
+                    </table>
+            </div>
+
+        
+            <div>
+                <h2 class="css">CSS (Cascading Style Sheets) </h2>
+                    <table>
+                        <tr class="even">
+                            <th>Name</th>
+                            <th>Term</th>
+                            <th>Meaning</th>
+                        </tr>
+                
+                        <tr>
+                            <td>Universal Selector</td>
+                            <td>*{}</td>
+                            <td>Targets all elements on the page.</td>
+                        </tr>
+
+                        <tr class="even">
+                            <td>Type Selector</td>
+                            <td>h1, h2, h3 {}</td>
+                            <td>Targets the &lt;h1&gt;, &lt;h2&gt; and &lt;h3&gt; elements. </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>Class Selector</td>
+                            <td>.note{}</td>
+                            <td>Targets any element whose class attribute has a value of <em>note</em>.</td>
+                        </tr>
+
+                        <tr class="even">
+                            <td>ID Selector</td>
+                            <td>#introduction{}</td>
+                            <td>Targets the selector whose ID attribute has a value of <em>introduction</em>.</td>
+                        </tr>
+                    </table>
+            </div>
+        </main><br>
+        
+        <footer>Created by Philip Wickett on the 2nd July 2024.</footer>
+    </body>
+</html>
